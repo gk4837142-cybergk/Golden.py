@@ -1,11 +1,7 @@
-p = 50
+#global valiable
+AGE = 18
+def greet():
+    name = "geff"
+    print(f"Hello, {name}, you are {AGE} years old.")
 
-while p >= 5:
-   print("you are in a while loop")
-   p -= 1
-
-
-
-
-
-
+greet()
